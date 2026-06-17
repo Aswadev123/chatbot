@@ -1,4 +1,4 @@
-# Building an AI Chatbot (React + Express + Claude/OpenAI)
+# Building an AI Chatbot (React + Express + Claude/groq)
 
 This plan outlines the steps we will take to build a highly premium, modern AI Chatbot from scratch. We will organize the project into a mono-repository style with two subfolders: `backend/` (Express) and `frontend/` (React + Vite).
 
@@ -45,7 +45,7 @@ a:/projects/AIchat/
 ## Proposed Phase-by-Phase Plan
 
 ### Phase 1: Environment & Project Scaffolding
-- **Backend**: Initialize Node.js app, install `express`, `cors`, `dotenv`, and API SDKs (`openai` / `@anthropic-ai/sdk`).
+- **Backend**: Initialize Node.js app, install `express`, `cors`, `dotenv`, and API SDKs (`groq` / `@anthropic-ai/sdk`).
 - **Frontend**: Initialize React + Vite project using `npx -y create-vite@latest frontend --template react`.
 - Configure scripts and verify the basic hello-world setups can communicate.
 
